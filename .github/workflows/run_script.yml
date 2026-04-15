@@ -10,7 +10,7 @@ on:
 jobs:
   execute-script:
     runs-on: ubuntu-latest
-    timeout-minutes: 15  # 增加超时时间
+    timeout-minutes: 15
 
     steps:
     - name: Checkout code
