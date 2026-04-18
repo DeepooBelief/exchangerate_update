@@ -77,7 +77,7 @@ def get_gbp_rate():
                 print(f"获取成功！更新时间: {publish_date} {publish_time}")
                 print(f"现汇买入价: {buying_rate} | 现汇卖出价: {selling_rate}")
                 
-                title = f"{currency_name}现汇买入价: {buying_rate}"
+                title = f"{currency_name}现汇卖出价: {selling_rate}"
                 content = f"""
                 <p><b>货币名称:</b> {currency_name}</p>
                 <p><b>现汇买入价:</b> <span style="color:red">{buying_rate}</span></p>
